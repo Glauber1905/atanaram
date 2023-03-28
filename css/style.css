@@ -1696,7 +1696,7 @@ ol {
 	/* BOTÃO DO AO VIVO */
 }
 .hero-section .banner .buttons-cta .buy-tickets {
-	bottom: 535px;
+	bottom: 235px;
 	right: 480px;
 	padding: 8px 20px;
 	position: absolute;
@@ -1969,7 +1969,7 @@ ol {
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #174af3;
+		background: #cffe00;
 	}
 	.header .main-menu ul li a {
 		display: block;
@@ -2141,7 +2141,7 @@ ol {
 	}
 
 	.single-milestone-counter .counter-text span {
-		color: #174af3;
+		color: #cefe00;
 		font-size: 18px;
 		font-weight: 900;
 		display: block;
@@ -2161,7 +2161,7 @@ ol {
 	}
 	.tickets-table .table-features ul li {
 		list-style: none;
-		color: #c06700;
+		color: #fc0065;
 		font-size: 18px;
 		font-weight: 400;
 		margin-bottom: 8px;
@@ -2279,13 +2279,13 @@ ol {
 		margin-right: 5px;
 		display: inline;
 		font-size: 21px;
-		border: 3px solid #c06700;
+		border: 3px solid #b3054b;
 	}
 	.workshop-text .buy-tickets {
 		padding: 10px 12px;
 		display: inline;
 		font-size: 21px;
-		border: 3px solid #174af3;
+		border: 3px solid #6f8809;
 
 	}
 	.tickets-table .table-features {
@@ -2304,7 +2304,12 @@ ol {
 	.tab-elem .nav-tabs .nav-item {
 		margin-bottom: 10px;
 	}
-	
+	/* .hero-section {
+		background-color: #000;
+		background-image: url(http://urbanky.com.br/img/slider/banner-mobile.webp);
+		background-repeat: no-repeat;
+        background-size: cover;
+	} */
 	.hero-text h2 {
 		color: #fff;
 		font-size: 40px;
@@ -2314,6 +2319,7 @@ ol {
 		color: #fff;
 		font-size: 12px;
 		font-weight: 400;
+		/* opacity: 0.5; */
 		display: inline-block;
 		margin-left: 33px;
 	}
@@ -2326,7 +2332,7 @@ ol {
 	}
 	.fechar {
 		position: absolute;
-		color: #174af3;
+		color: #cdff00;
 		right: 1.2em;
 		font-size: 25px;
 	}
@@ -2359,7 +2365,7 @@ ol {
 		align-items: center;
 		-webkit-box-pack: center;
 		justify-content: center;
-		background: #174af3;
+		background: #CDFF00;
 		padding: 7px 17px;
 		border-radius: 16px;
 		cursor: pointer;
