@@ -1525,18 +1525,19 @@ ol {
 	background-color: #6063ED;
 }
 
-/*  PARTE AZUL QUE FICA O NOME DA IGREJA  */
+/*  ESPAÇO DA PARTE AZUL QUE FICA O NOME DA IGREJA  */
 
 .milestone-counter {
 	padding-bottom: 30px;
 }
 
 .milestone-counter .section-title {
-	margin-bottom: 52px;
+	margin-bottom: 60px;
 }
 
+/* FRASE DO LUGAR ABENÇOADO... EM PC */
 .milestone-counter p {
-    color: #fff;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 300;
     line-height: 1.2;
@@ -1579,8 +1580,9 @@ ol {
 	text-transform: uppercase;
 }
 
+/* BOTÃO DOS ICONES EM PC */
 .single-milestone-counter .counter-text span {
-	color: #cefe00;
+	color: #000000;
 	font-size: 18px;
 	font-weight: 900;
 	display: block;
@@ -1710,18 +1712,7 @@ ol {
 	position: absolute;
 	bottom: 10px;
 }
-.dots .active {
-	box-shadow: 0 0 10px #CDFF05;
-	background-color: #CDFF05;
-}
-[dot] {
-    background-color: whitesmoke;
-    border-radius: 20%;
-    width: min(15px, 4vw);
-    height: min(15px, 4vw);
-    box-shadow: none;
-    cursor: pointer;
-}
+
 /*---------------------
   Responsive Styles
 -----------------------*/
@@ -2139,13 +2130,12 @@ ol {
 		line-height: 25px;
 		margin-bottom: 42px;
 	}
-
+	/* ICONES DO PQ AMO MARANATA MOBILE */
 	.single-milestone-counter .counter-text span {
-		color: #cefe00;
+		color: #000000;
 		font-size: 18px;
 		font-weight: 900;
 		display: block;
-		/* text-transform: uppercase; */
 	}
 
 	.call-to-text p {
@@ -2161,7 +2151,7 @@ ol {
 	}
 	.tickets-table .table-features ul li {
 		list-style: none;
-		color: #fc0065;
+		color: #c06700;
 		font-size: 18px;
 		font-weight: 400;
 		margin-bottom: 8px;
@@ -2274,20 +2264,25 @@ ol {
 	.buttons-cta {
 		text-align: center;
 	}
+
+	/* SOMBRA DO SAIBA MAIS EM RETIRO */
 	.workshop-text .more-info {
 		padding: 10px 28.5px;
 		margin-right: 5px;
 		display: inline;
 		font-size: 21px;
-		border: 3px solid #b3054b;
+		border: 3px solid #c06700;
 	}
+
+	/* SOMBRA DOS BOTOES DAS IGREJAS */
 	.workshop-text .buy-tickets {
-		padding: 10px 12px;
+		padding: 2px 2px;
 		display: inline;
-		font-size: 21px;
-		border: 3px solid #6f8809;
+		font-size: 7px;
+		border: 3px solid #174af3;
 
 	}
+
 	.tickets-table .table-features {
 		padding-left: 36px;
 	}
@@ -2304,12 +2299,7 @@ ol {
 	.tab-elem .nav-tabs .nav-item {
 		margin-bottom: 10px;
 	}
-	/* .hero-section {
-		background-color: #000;
-		background-image: url(http://urbanky.com.br/img/slider/banner-mobile.webp);
-		background-repeat: no-repeat;
-        background-size: cover;
-	} */
+	
 	.hero-text h2 {
 		color: #fff;
 		font-size: 40px;
@@ -2332,7 +2322,7 @@ ol {
 	}
 	.fechar {
 		position: absolute;
-		color: #cdff00;
+		color: #174af3;
 		right: 1.2em;
 		font-size: 25px;
 	}
@@ -2365,7 +2355,7 @@ ol {
 		align-items: center;
 		-webkit-box-pack: center;
 		justify-content: center;
-		background: #CDFF00;
+		background: #174af3;
 		padding: 7px 17px;
 		border-radius: 16px;
 		cursor: pointer;
