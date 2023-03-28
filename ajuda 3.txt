@@ -1,8 +1,8 @@
 Igreja Missionária Evangélica Maranata ® 2017 Todos os direitos reservados Termos de Uso e Política de Privacidade
 
-laranja:   #c06700
+rosa vai para laranja:   #c06700
 
-azul:     #174af3
+verde vai para azul:     #174af3
 
 
 
