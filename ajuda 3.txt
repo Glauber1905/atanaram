@@ -1,0 +1,40 @@
+Igreja Missionária Evangélica Maranata ® 2017 Todos os direitos reservados Termos de Uso e Política de Privacidade
+
+laranja:   #c06700
+
+azul:     #174af3
+
+
+
+Campo Grande
+Copacabana
+Caxias
+Tijuca
+Vila São Luiz
+Jacarepaguá
+Recreio
+Méier
+Irajá
+Lote XV
+Jardim Primavera
+Nova Iguaçu
+São João
+Rio das Ostras
+
+
+
+
+
+
+
+/* Fixa a barra de menu */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+"Lugar abençoado onde as pessoas recebem muito bem, dando um abraço, um sorriso, isso faz toda a diferença"   Ass: João da Silva
+

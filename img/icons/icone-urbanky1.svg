@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="54mm" height="54mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5400 5400"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="666" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="U" horiz-adv-x="722" d="M546.001 715.999l94.9992 0 0 -413.498c0,-72.0016 -8.16775,-129.169 -24.3343,-171.501 -16.3331,-42.1658 -45.667,-76.6658 -87.9993,-103.167 -42.5012,-26.4987 -98.0009,-39.8325 -167.001,-39.8325 -66.8332,0 -121.667,11.5 -164.166,34.6665 -42.6677,23.1665 -73.0006,56.4986 -91.1675,100.334 -18.1669,43.8332 -27.3336,103.666 -27.3336,179.5l0 413.498 95.0016 0 0 -413.331c0,-62.1666 5.83204,-108.167 17.332,-137.5 11.5,-29.5004 31.1677,-52.3339 59.3338,-68.1675 27.9996,-16.0001 62.3331,-23.9989 102.834,-23.9989 69.3329,0 118.832,15.8336 148.332,47.3319 29.5004,31.6672 44.1686,92.3353 44.1686,182.335l0 413.331z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#282829}
+    .fil1 {fill:#CDFF00}
+    .fnt0 {font-weight:normal;font-size:4144.35px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" x="-0.87" y="0.87" width="5400" height="5400"/>
+  <g id="_2440711968720">
+   <rect class="fil1" x="1519.51" y="4123.72" width="2355.66" height="368.62"/>
+   <text x="1222.2" y="3876.77"  class="fil1 fnt0">U</text>
+  </g>
+ </g>
+</svg>
