@@ -23,7 +23,6 @@ body {
 	border-radius: 20px;
 	border: 3px solid #c06700;
   }
-  
 
 h1,
 h2,
@@ -79,11 +78,12 @@ textarea:focus {
 	outline: none;
 }
 
+/* CORES DO HOVER AO PASSAR O MOUSE EM CIMA */
 a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #000;
+	color: #122032;
 }
 
 a:hover, a:focus, .primary-btn {
@@ -95,7 +95,7 @@ a:hover, a:focus, .primary-btn {
 a:active, .primary-btn {
     text-decoration: none;
     outline: none;
-    color: #000;
+    color: #122032;
 }
 
 ul,
@@ -158,16 +158,15 @@ ol {
 	font-size: 22px;
 	font-weight: 900;
 	padding: 20px 45px;
-	color: #fff;
-	background-image: linear-gradient(to bottom,#c06700,#c06700 );
-	border: 4px solid #c06700;
+	color: #ffffff;
+	background-image: linear-gradient(to bottom,#ff6e32,#ff6e32);
+	border: 4px solid #ff6e32;
 	letter-spacing: 0.5px;
 	border-radius: 8px;
 	z-index: 1;
-	box-shadow: 0 10px 50px #c06700;
+	box-shadow: 0 10px 50px #ff6e32;
 	cursor: pointer;
 }
-
 .secondary-btn {
 	border-radius: 50% ;
     padding: 3vw;
@@ -188,19 +187,19 @@ ol {
 	font-weight: 900;
 	padding: 10px 25px;
 	color: #fff;
-	background-image: linear-gradient(to bottom,#c06700,#c06700 );
-	border: 4px solid #c06700;
+	background-image: linear-gradient(to bottom,#ff6e32,#ff6e32 );
+	border: 4px solid #ff6e32;
 	letter-spacing: 0.5px;
 	border-radius: 8px;
 	z-index: 1;
-	box-shadow: 0 10px 50px #c06700;
+	box-shadow: 0 10px 50px #ff6e32;
 	cursor: pointer;
 	margin-top: 2em;
 }
 
 .submit-btn {
-	border: 1px solid #174af3;
-	background: #174af3;
+	border: 1px solid #122032;
+	background: #122032;
 	color: #fff;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -227,7 +226,7 @@ ol {
 }
 
 .btn-comprar:hover {
-	background-color: #cffe00;
+	background-color: #122032;
 	color: black;
 }
 
@@ -263,19 +262,19 @@ ol {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
-		border: 4px solid #c06700;
+		border: 4px solid #ff6e32;
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
-		border: 4px solid #174af3;
+		border: 4px solid #122032;
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
-		border: 4px solid #c06700;
+		border: 4px solid #ff6e32;
 		border-left-color: transparent;
 	}
 }
@@ -283,17 +282,17 @@ ol {
 @-webkit-keyframes loader {
 	0% {
 		-webkit-transform: rotate(0deg);
-		border: 4px solid #c06700;
+		border: 4px solid #ff6e32;
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
-		border: 4px solid #174af3;
+		border: 4px solid #122032;
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
-		border: 4px solid #c06700;
+		border: 4px solid #ff6e32;
 		border-left-color: transparent;
 	}
 }
@@ -373,7 +372,7 @@ ol {
 
 .header .main-menu ul li a.active {
 	border-radius: 4px;
-	color: #174af3;
+	color: #122032;
 }
 
 .header .main-menu ul li a:hover:after {
@@ -470,7 +469,7 @@ ol {
 
 }
 
-
+/* SOMBRA-SHADOW DOS BOTOES DAS IGREJAS */
 
 .workshop-text .more-info {
 	padding: 10px 50px;
@@ -479,11 +478,11 @@ ol {
 }
 
 .workshop-text .buy-tickets {
-	background-image: linear-gradient(to bottom,#174af3,#174af3 );
-	border: 1px solid #174af3;
+	background-image: linear-gradient(to bottom,#122032,#122032 );
+	border: 1px solid #ff6e32;
 	padding: 2px 5px;
 	z-index: 1;
-	box-shadow: 0 2px 5px #174af3;
+	box-shadow: 0 2px 5px #ff6e32;
 }
 
 .speak-about {
@@ -510,8 +509,8 @@ ol {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: -webkit-gradient(linear, left top, right top, from(#c06700), to(#c06700));
-	background: linear-gradient(to right, #c06700, #c06700);
+	background: -webkit-gradient(linear, left top, right top, from(#ff6e32), to(#ff6e32));
+	background: linear-gradient(to right, #ff6e32, #ff6e32);
 	border-radius: 6px;
 	opacity: 0;
 	-webkit-transition: all 0.4s;
@@ -639,7 +638,7 @@ ol {
 }
 
 /*---------------------
-  Footer
+  Footer CORES E ETC
 -----------------------*/
 
 .footer-section {
@@ -652,7 +651,7 @@ ol {
     margin: 1em;
     padding: 3em;
 	border-radius: 6px;
-	background-color: #0000009e;
+	background-color: #122032;
 }
 
 .footer-container {
@@ -685,7 +684,7 @@ ol {
 .footer-social a {
 	color: #000;
 	margin-right: 5px;
-	background: #c06700;
+	background: #ff6e32;
 	display: block;
 	border-radius: 4px;
 	text-align: center;
@@ -728,7 +727,7 @@ ol {
 	position: absolute;
 	left: 0;
 	top: 0;
-	color: #c06700;
+	color: #ff6e32;
 }
 
 .contact-widget ul li img {
@@ -776,7 +775,7 @@ ol {
 .copyright-text .footer-social a {
 	color: #000;
 	margin-right: 5px;
-	background: #c06700;
+	background: #ff6e32;
 	display: block;
 	border-radius: 4px;
 	text-align: center;
@@ -862,7 +861,7 @@ ol {
 	font-size: 18px;
 	height: 36px;
 	width: 36px;
-	background: #c06700;
+	background: #ff6e32;
 	display: inline-block;
 	text-align: center;
 	line-height: 35px;
@@ -911,7 +910,7 @@ ol {
 }
 
 .call-to-text .buy-tickets {
-	background: #c06700;
+	background: #ff6e32;
 	padding: 10px 28px;
 }
 
@@ -1008,201 +1007,9 @@ ol {
 	margin-left: 10px;
 }
 
-/*---------------------
-  Hurry Up
------------------------*/
-
-.hurry-up {
-	padding-bottom: 159px;
-}
-
-.hurry-up h2 {
-	color: #fff;
-	font-size: 48px;
-	font-weight: 900;
-	text-align: center;
-	margin-bottom: 36px;
-}
-
-.hurry-up .countdown-timer .cd-time {
-	float: left;
-	margin-right: 140px;
-}
-
-.hurry-up .countdown-timer .cd-time span {
-	color: #fff;
-	display: block;
-	font-size: 90px;
-	font-weight: 900;
-}
-
-.hurry-up .countdown-timer .cd-time p {
-	color: #fff;
-	font-size: 27px;
-	font-weight: 400;
-	opacity: 0.5;
-}
-
-.hurry-up .countdown-timer .cd-time:last-child {
-	margin-right: 0;
-}
 
 /*---------------------
-  Blog Section
------------------------*/
-
-.blog-section {
-	padding-bottom: 80px;
-}
-
-.blog-article {
-	padding-bottom: 100px;
-}
-
-.blog-article .article-img img {
-	border-radius: 6px;
-}
-
-.blog-article .article-details span {
-	display: block;
-	font-size: 16px;
-	font-weight: 400;
-	color: #272727;
-	opacity: 0.75;
-	margin-bottom: 6px;
-}
-
-.blog-article .article-details h3 {
-	color: #272727;
-	font-size: 30px;
-	font-weight: 900;
-	line-height: 36px;
-	margin-bottom: 24px;
-}
-
-.blog-article .article-details p {
-	color: #484848;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30px;
-	margin-bottom: 34px;
-}
-
-.blog-article .article-details .article-btn {
-	font-size: 14px;
-	padding: 13px 30px;
-}
-
-.blog-items .single-blog {
-	margin-bottom: 55px;
-}
-
-.blog-items .single-blog .blog-img img {
-	border-radius: 6px;
-	min-width: 100%;
-}
-
-.blog-items .single-blog .blog-details {
-	padding-top: 23px;
-}
-
-
-.blog-items .single-blog .blog-details .eventDate {
-    font-size: 34px;
-    height: 48px;
-    text-align: center;
-    display: block;
-    font-weight: 900;
-    font-style: normal;
-    margin-bottom: 15px;
-    background: #ffffff;
-    width: 68px;
-    height: 71px;
-    border-radius: 15px;
-    color: #000;
-	box-shadow: 0 0 15px #ffffff;
-	position: absolute;
-}
-
-.eventDescription {
-    padding-left: 94px;
-    /*padding-top: 13px;*/
-}
-
-.eventDate .dia {
-    font-size: 34px;
-    height: 48px;
-    text-align: center;
-    display: block;
-    font-weight: 900;
-    font-style: normal;
-    margin-bottom: -11px;
-}
-
-.eventDate .mes {
-    font-size: 19px;
-    text-align: center;
-    display: block;
-    font-weight: 700;
-}
-
-.blog-items .single-blog .blog-details h4 {
-	color: #fff;
-	font-size: 25px;
-	font-weight: 900;
-	/*line-height: 36px;*/
-	margin-bottom: 15px;
-}
-
-.blog-items .single-blog .blog-details h2 {
-	color: #fff;
-	font-size: 18px;
-	font-weight: 300;
-	/*line-height: 36px;*/
-	margin-bottom: 15px;
-}
-
-.blog-items .single-blog .blog-details p {
-	color: #484848;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30px;
-	margin-bottom: 27px;
-}
-
-.blog-items .single-blog .blog-details a.read-btn {
-	color: #6063ed;
-	font-size: 14px;
-	display: block;
-	font-weight: 900;
-	text-transform: uppercase;
-}
-
-.blog-pagination {
-	margin-top: -20px;
-}
-
-.pagination-number a {
-	display: inline-block;
-	color: #fff;
-	font-size: 14px;
-	height: 32px;
-	width: 32px;
-	text-align: center;
-	line-height: 32px;
-	border-radius: 6px;
-	background: #6063ED;
-	margin-right: 7px;
-	-webkit-transition: 0.3s;
-	transition: 0.3s;
-}
-
-.pagination-number a:hover {
-	background: #ffffff;
-}
-
-/*---------------------
-  Contact
+  ÁREA DAS PAGINAS DE CADA IGREJA
 -----------------------*/
 
 .contact-section {
@@ -1234,13 +1041,13 @@ ol {
 }
 
 .contact-details .contact-form input:focus {
-	border-bottom: 2px solid #c06700;
+	border-bottom: 2px solid #ff6e32;
 }
 
 .contact-details .contact-form textarea {
 	height: 200px;
 	width: 100%;
-	background: #F5F5F5;
+	background: #881a1a;
 	border: none;
 	padding-left: 27px;
 	padding-top: 20px;
@@ -1274,8 +1081,9 @@ ol {
 	width: 100%;
 }
 
+/* PARTE DO MAPA DAS IGREJAS */
 .map .contact-address {
-	background: #c06700;
+	background: #ff6e32;
 	position: absolute;
 	left: 20%;
 	top: 20%;
@@ -1325,14 +1133,6 @@ ol {
 	margin-left: 33px;
 }
 
-.map .contact-address .triangle-border {
-	border-top: 7px solid transparent;
-	border-bottom: 7px solid transparent;
-	border-left: 17px solid #fc0065;
-	position: absolute;
-	left: 0;
-	bottom: -6px;
-}
 
 /*---------------------
   Elements
@@ -1352,13 +1152,6 @@ ol {
 	margin-bottom: 52px;
 }
 
-.buttons-elem .buttons .send-btn {
-	height: 67px;
-	width: 234px;
-	background: #6063ED;
-	border: 1px solid #6063ED;
-	margin-right: 20px;
-}
 
 .buttons-elem .buttons a.green {
 	background: #000000;
@@ -1366,11 +1159,6 @@ ol {
 	margin-right: 20px;
 }
 
-.buttons-elem .buttons a.gradient {
-	background: -webkit-gradient(linear, left top, right top, from(#FB3ABE), to(#F149E3));
-	background: linear-gradient(to right, #FB3ABE, #F149E3);
-	padding: 20px 38px;
-}
 
 /*  Accordin Elem  */
 
@@ -1401,7 +1189,7 @@ ol {
     /*border-radius: 6px;*/
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
-	border-bottom: 1px solid #fc0065;
+	border-bottom: 1px solid #ff6e32;
 }
 
 .panel-group .panel-body {
@@ -1462,7 +1250,7 @@ ol {
 }
 
 .accordin-elem .card-heading.active {
-	background: #CDFF00;
+	background: #122032;
 }
 
 .accordin-elem .card-heading.active a {
@@ -1572,7 +1360,7 @@ ol {
 }
 
 .single-milestone-counter .counter-text strong {
-	color: #c06700;
+	color: #ff6e32;
 	font-size: 60px;
 	font-weight: 900;
 	display: inline-block;
@@ -1639,8 +1427,8 @@ ol {
 }
 
 .icon-boxes .speak-text:hover {
-	background: -webkit-gradient(linear, left top, right top, from(#c06700), to(#c06700));
-	background: linear-gradient(to right, #c06700, #c06700);
+	background: -webkit-gradient(linear, left top, right top, from(#ff6e32), to(#ff6e32));
+	background: linear-gradient(to right, #ff6e32, #ff6e32);
 }
 
 .icon-boxes .speak-text:hover i {
@@ -1680,7 +1468,6 @@ ol {
 	background-size: cover;
 	transition: 1s all;
 }
-/* BOTÃO DO AO VIVO */
 .hero-section .banner {
 	width: 100%;
 	height: 100%;
@@ -1696,6 +1483,7 @@ ol {
 	background-position: center;
 	background-size: cover;
 
+	/* BOTÃO DO AO VIVO */
 }
 .hero-section .banner .buttons-cta .buy-tickets {
 	bottom: 235px;
@@ -1704,6 +1492,13 @@ ol {
 	position: absolute;
 	font-size: min(24px, 4.75vw);
 	transition: .75s all;
+}
+.dots {
+	gap: 10px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 10px;
 }
 
 /*---------------------
@@ -1947,13 +1742,10 @@ ol {
 		padding: 20px;
 		border-radius: 4px;
 	}
-	.slicknav_btn {
-		/*margin: 5px 0 25px;*/
-		/*padding: 0.738em 1em;*/
-	}
+	
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #cffe00;
+		background: #122032;
 	}
 	.header .main-menu ul li a {
 		display: block;
@@ -2144,7 +1936,7 @@ ol {
 	}
 	.tickets-table .table-features ul li {
 		list-style: none;
-		color: #c06700;
+		color: #ff6e32;
 		font-size: 18px;
 		font-weight: 400;
 		margin-bottom: 8px;
@@ -2246,8 +2038,10 @@ ol {
 	.event-counter .event-name h2 {
 		font-size: 40px;
 	}
+
+	/* TEXTO DOS BOTOES DAS IGREJAS */
 	.workshop-text h2 {
-		font-size: 20px;
+		font-size: 30px;
 		line-height: 25px;
 		padding: 10px;
 		margin-bottom: 20px;
@@ -2258,7 +2052,7 @@ ol {
 		text-align: center;
 	}
 
-	/* SOMBRA DO SAIBA MAIS EM RETIRO */
+	/* CONTORNO DO SAIBA MAIS EM RETIRO */
 	.workshop-text .more-info {
 		padding: 10px 28.5px;
 		margin-right: 5px;
@@ -2267,12 +2061,12 @@ ol {
 		border: 3px solid #c06700;
 	}
 
-	/* SOMBRA DOS BOTOES DAS IGREJAS */
+	/* CONTORNO DOS BOTOES DAS IGREJAS */
 	.workshop-text .buy-tickets {
-		padding: 2px 2px;
+		padding: 0.15px 1px;
 		display: inline;
-		font-size: 7px;
-		border: 3px solid #174af3;
+		font-size: 13px;
+		border: 3px solid #122032;
 
 	}
 
@@ -2315,7 +2109,7 @@ ol {
 	}
 	.fechar {
 		position: absolute;
-		color: #174af3;
+		color: #122032;
 		right: 1.2em;
 		font-size: 25px;
 	}
@@ -2348,7 +2142,7 @@ ol {
 		align-items: center;
 		-webkit-box-pack: center;
 		justify-content: center;
-		background: #174af3;
+		background: #122032;
 		padding: 7px 17px;
 		border-radius: 16px;
 		cursor: pointer;
