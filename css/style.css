@@ -348,10 +348,10 @@ ol {
 	display: inline-block;
 }
 
+/* POSIÇÃO DOS BOTOES DO HEADER */
 .header .main-menu {
-	float: left;
+	float: right;
 	margin-top: -2px;
-	
 }
 
 .header .main-menu ul li {
@@ -870,19 +870,19 @@ ol {
 }
 
 .guest-info .guest-links a.behance {
-	background: #0057FF;
+	background: #ff6e32;
 }
 
 .guest-info .guest-links a.facebook {
-	background: #4267B2;
+	background: #ff6e32;
 }
 
 .guest-info .guest-links a.linkedin {
-	background: #0077B5;
+	background: #ff6e32;
 }
 
 .guest-info .guest-links a.twitter {
-	background: #1DA1F2;
+	background: #ff6e32;
 }
 
 /*---------------------
@@ -915,11 +915,11 @@ ol {
 }
 
 .call-to-text .buy-tickets2 {
-	background-image: linear-gradient(to bottom,#174af3,#174af3 );
-    border: 4px solid #174af3;
+	background-image: linear-gradient(to bottom,#ff6e32,#ff6e32 );
+    border: 4px solid #ff6e32;
     padding: 10px 28px;
     z-index: 1;
-    box-shadow: 0 10px 50px #174af3;
+    box-shadow: 0 10px 50px #ff6e32;
 }
 
 /*---------------------
@@ -1738,14 +1738,14 @@ ol {
 		padding: 0;
 	}
 	.slicknav_nav {
-		background: #000;
+		background: #122032;
 		padding: 20px;
 		border-radius: 4px;
 	}
 	
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #122032;
+		background: #ff6e32;
 	}
 	.header .main-menu ul li a {
 		display: block;
