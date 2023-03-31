@@ -1955,7 +1955,7 @@ ol {
 		background-size: contain;
 	}
 	.hero-section .banner .buttons-cta .buy-tickets {
-		bottom: -55px;
+		bottom: 255px;
 		right: 25%;
 		left: 25%;
 		padding: 8px 20px;
@@ -2048,7 +2048,9 @@ ol {
         margin-top: 10px;
 		text-align: center;
 	}
-	.buttons-cta {
+
+	/* AO VIVO DO MOBILE */
+	.buttons-cta9 {
 		text-align: center;
 	}
 
@@ -2061,7 +2063,7 @@ ol {
 		border: 3px solid #c06700;
 	}
 
-	/* CONTORNO DOS BOTOES DAS IGREJAS */
+	/* CONTORNO DOS BOTOES DAS IGREJAS MO*/
 	.workshop-text .buy-tickets {
 		padding: 0.15px 1px;
 		display: inline;
